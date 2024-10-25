@@ -10,6 +10,7 @@ const validateForm = () => {
 
   let errorIncrement = 0;
   errorMessageContainer.style.display = "block";
+
   //helper function for animation
   const errorFunction = () => {
     errorMessageContainer.appendChild(errorMessage);
